@@ -15,6 +15,7 @@
     ],
     "rules": {
         "functional/no-this-expression": "error",
-        "functional/immutable-data": "error"
+        "functional/immutable-data": "error",
+        "no-var": "error"
     }        
 }

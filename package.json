@@ -11,7 +11,8 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
-    "@babel/preset-env": "^7.12.1"
+    "@babel/preset-env": "^7.12.1",
+    "immutable": "^4.0.0-rc.12"
   },
   "devDependencies": {
     "eslint": "^7.12.1",

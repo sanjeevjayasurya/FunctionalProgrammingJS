@@ -40,7 +40,7 @@ const newNumbers = numbers.reduce(filter(isEven), [])
 console.log(newNumbers) // [2,4,6]
 
 /*
- *
+ * Go through compose from lodash/fp
  */
 function filters (test) {
   return function (reducer) {
@@ -64,9 +64,9 @@ const toArrayReducer = (arr, value) => {
 }
 
 const numbersArr = [1, 2, 3, 4]
-const filterTransducer = filter(isEven)
-const mapTransducer = map(double)
+const filterTransducer = filters(isEven)
+const mapTransducer = maps(double)
 
 const newNumbersArr = numbersArr.reduce(filterTransducer(mapTransducer(toArrayReducer)), [])
 
-console.log(newNumbersArr)
+console.log(newNumbersArr) // [4,8]

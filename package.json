@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel parcel/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,8 @@
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
-    "immutable": "^4.0.0-rc.12"
+    "immutable": "^4.0.0-rc.12",
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
@@ -20,6 +22,7 @@
     "eslint-plugin-functional": "^3.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "parcel-bundler": "^1.12.4"
   }
 }
